@@ -1,3 +1,9 @@
+/**
+@author Jarrett Early
+Program: Data Communications Calculations App 
+Developed: 3/23/17
+Updated: 3/23/17
+*/
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
