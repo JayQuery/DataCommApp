@@ -1,4 +1,7 @@
 //import java.math.*;
+
+package application;
+
 public class AttenCalc {
 	private double d;
 	private double L;
@@ -94,6 +97,7 @@ public class AttenCalc {
 		return "Delay: " + getDelay()
 		+"\nL/R: (" + getL() + "/" + getR() + ") "
 		+"\nRTT: " + getRTT()
+		+"\nEffective RTT: " + (getRTT() * getUtil())
 		+"\nd/s X 2: 2(" + getD() + "/" + s + ") "
 		+"\nUtilization: " + getUtil()
 		+"\nL/R/(RTT + L/R) (" + getDelay() + "/(" + getRTT() + " + "
